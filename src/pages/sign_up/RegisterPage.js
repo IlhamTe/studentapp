@@ -137,8 +137,7 @@ export default function RegisterPage({navigation}) {
       </View>
       <View
         style={{
-          height: '100%',
-          top: -30,
+          flex:1,
           elevation: 3,
           borderTopLeftRadius: 50,
           borderTopRightRadius: 50,
@@ -165,7 +164,7 @@ export default function RegisterPage({navigation}) {
           scrollEnabled={true}
           contentContainerStyle={{
             alignItems: 'flex-start',
-            flexGrow: 1,
+            paddingBottom:150,
           }}>
           <View
             style={{
