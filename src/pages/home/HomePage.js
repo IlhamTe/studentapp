@@ -77,7 +77,7 @@ export default function HomePage() {
   ];
 
   async function getLocation() {
-    // Geocoder.init('AIzaSyABlXg3BTeMC7XcewMjQvNubnXnM_0aAoY');
+    // Geocoder.init('GOOGLE_API_KEY');
     Geolocation.getCurrentPosition(
       position => {
         let result = JSON.stringify(position);
