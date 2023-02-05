@@ -62,11 +62,11 @@ export default function SplashPage({navigation}) {
       <Text
         style={{
           color: '#063970',
-          fontSize: 20,
+          fontSize: 17,
           fontStyle: 'italic',
           marginBottom: 30,
         }}>
-        Organize Your Student Data
+          Voice Your Interest
       </Text>
       <ActivityIndicator animating={true} color="#063970" size={'small'} />
     </View>

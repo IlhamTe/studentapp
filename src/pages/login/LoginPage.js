@@ -139,7 +139,7 @@ export default function LoginPage() {
       </TouchableOpacity>
 
       <View style={{flexDirection: 'row'}}>
-        <Text style={{fontSize: 15}}>Belum punya akun? </Text>
+        <Text style={{fontSize: 15, color:'black'}}>Belum punya akun? </Text>
         <TouchableOpacity onPress={() => navigation.navigate('Register')}>
           <Text style={{fontSize: 15, color: '#063970', fontWeight: 'bold'}}>
             Daftar
